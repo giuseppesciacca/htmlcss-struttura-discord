@@ -1,0 +1,52 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container{
+    width: 90%;
+    margin:auto
+}
+
+/* #region HEADER */
+.debug #header-top{
+    background-color: #add8e6;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.debug header nav div{
+    background-color: #daa520;
+    border: 1px dashed black;
+    padding: 0.5rem;
+}
+
+.debug header nav #logo{
+    width: 10%;
+}
+
+.debug header nav #link{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#link>a{
+    margin: 0 1rem;
+}
+
+.debug header nav #login{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/* #endregion HEADER */
