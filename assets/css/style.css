@@ -11,20 +11,25 @@
     margin:auto
 }
 
+.flex{
+    display: flex;
+}
+
 /* #region HEADER */
+
+/* #region HEADER top */
 .debug #header-top{
     background-color: #add8e6;
 }
 
 nav{
-    display: flex;
     justify-content: center;
     padding: 1rem;
 }
 
 .debug header nav div{
     background-color: #daa520;
-    border: 1px dashed black;
+    border: 2px dashed black;
     padding: 0.5rem;
 }
 
@@ -34,7 +39,6 @@ nav{
 
 .debug header nav #link{
     width: 50%;
-    display: flex;
     justify-content: center;
 }
 
@@ -44,9 +48,24 @@ nav{
 
 .debug header nav #login{
     width: 10%;
-    display: flex;
     justify-content: flex-end;
 
 }
+/* #endregion HEADER top*/
 
-/* #endregion HEADER */
+/* #region HEADER bottom */
+.debug #header-bottom{
+    background-color: #00008b;
+    padding: 2rem;
+}
+
+.debug .titlecontainer{
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    margin: auto;
+    height: 300px;
+    width: calc((100% / 12) * 6);    
+}
+
+/* #endregion HEADER bottom*/
+/* #endregion HEADER*/
