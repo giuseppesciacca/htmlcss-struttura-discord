@@ -18,6 +18,14 @@
 .debug hr{
     color: #aad6e4;
 }
+
+.cw-7{
+    width: calc((100% / 12) * 7);
+}
+
+.cw-5{
+    width: calc((100% / 12) * 5);
+}
 /* #region HEADER */
 
 /* #region HEADER top */
@@ -82,7 +90,6 @@ nav{
 .image{
     background-color: #1e90ff;
     height: 400px;
-    width: calc((100% / 12) * 7);
     border: 2px dashed black;
 
 }
@@ -91,5 +98,8 @@ nav{
     background-color: #ffc0cb;
     height: 400px;
     border: 2px dashed black;
-    width: calc((100% / 12) * 5);
+}
+
+.debug .bg-grey{
+    background-color: #d3d3d3;
 }
