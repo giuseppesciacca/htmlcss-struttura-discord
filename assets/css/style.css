@@ -15,6 +15,11 @@ html {
     margin: auto
 }
 
+
+ul {
+    list-style: none;
+}
+
 .flex {
     display: flex;
 }
@@ -63,32 +68,34 @@ button {
 /* #region HEADER */
 
 /* #region HEADER top */
-nav {
+#header-top {
     justify-content: center;
     padding: 1rem;
 }
 
-.debug header nav>div {
+.debug #header-top .container>.logo,
+#link,
+#login {
     background-color: #daa520;
     border: 2px dashed black;
     padding: 0.5rem;
 }
 
-.debug header nav .logo,
+.debug header div .logo,
 #login {
     flex-basis: 20%;
 }
 
-.debug header nav #link {
+.debug header div #link {
     flex-basis: 80%;
     justify-content: center;
 }
 
-#link>a {
+#link li>a {
     margin: 0 1rem;
 }
 
-.debug header nav #login {
+.debug #header-top #login {
     justify-content: flex-end;
 }
 
@@ -129,7 +136,7 @@ nav {
     border: 2px dashed black;
 }
 
-        /* big -section */
+/* big -section */
 .debug main section:last-of-type {
     height: 100vh;
 }
@@ -179,4 +186,3 @@ nav {
 
 /* #endregion FOOTER-BOTTOM */
 /* #endregion FOOTER*/
-
