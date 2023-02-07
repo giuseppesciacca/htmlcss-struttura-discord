@@ -15,7 +15,6 @@ html {
     margin: auto
 }
 
-
 ul {
     list-style: none;
 }
@@ -63,10 +62,9 @@ ul {
 button {
     border: none;
 }
-
 /* #endregion COMMON e Utilities */
-/* #region HEADER */
 
+/* #region HEADER */
 /* #region HEADER top */
 #header-top {
     justify-content: center;
